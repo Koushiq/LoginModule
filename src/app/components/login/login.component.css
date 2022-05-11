@@ -1,0 +1,41 @@
+a ,h1, h2, h3, h4, h5, p  {
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type=text],input[type=password]::placeholder
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+body , head
+{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+button , input[type=submit]
+{
+    margin: 8px;
+    margin-right: 50px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(29, 144, 176);
+    color: white;
+}
+
+.login-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #133f51;
+    padding: 10px;
+    min-width: 40%;
+    max-width: 200px;
+}
+
+.login-header{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
